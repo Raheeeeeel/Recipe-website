@@ -11,7 +11,7 @@ const recipes = [
     cookTime: "20 min",
     totalTime: "30 min",
     servings: "",
-    ingredients: [],
+    ingredients: [""],
     steps: [
       
     ],
