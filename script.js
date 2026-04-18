@@ -5,7 +5,7 @@ const recipes = [
     cuisine: "Italian",
     dish: "Main",
     difficulty: "medium",
-    description: "A delicious and creamy pasta dish with chicken and bacon.",
+    description: "A delicious and creamy pasta dish with chicken.",
     image: "spaghetti chicken carbonara.jpg",
     prepTime: "10 min",
     cookTime: "",
