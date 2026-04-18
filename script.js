@@ -33,6 +33,25 @@ const recipes = [
     ],
     tips: ""
   },
+
+  {
+    id: 2,
+    name: "",
+    cuisine: "",
+    dish: "",
+    difficulty: "",
+    description: "",
+    image: "",
+    prepTime: "",
+    cookTime: "",
+    totalTime: "",
+    servings: "",
+    ingredients: [""],
+    steps: [
+      
+    ],
+    tips: ""
+  },
 ];
 
 let activeFilter = 'all';
