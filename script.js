@@ -7,9 +7,9 @@ const recipes = [
     difficulty: "",
     description: "",
     image: "",
-    prepTime: "10 min",
-    cookTime: "20 min",
-    totalTime: "30 min",
+    prepTime: "",
+    cookTime: "",
+    totalTime: "",
     servings: "",
     ingredients: [""],
     steps: [
