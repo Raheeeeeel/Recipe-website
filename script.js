@@ -36,8 +36,8 @@ const recipes = [
 
   {
     id: 2,
-    name: "",
-    cuisine: "",
+    name: "gugfug",
+    cuisine: "main",
     dish: "",
     difficulty: "",
     description: "",
