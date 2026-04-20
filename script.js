@@ -36,9 +36,9 @@ const recipes = [
   {
     id: 2,
     name: "",
-    cuisine: "",
-    dish: "",
-    difficulty: "",
+    cuisine: "vegetable",
+    dish: "Main",
+    difficulty: "easy",
     description: "",
     image: "",
     prepTime: "",
