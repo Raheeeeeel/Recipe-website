@@ -35,7 +35,7 @@ const recipes = [
 
   {
     id: 2,
-    name: "kangkung goreng",
+    name: "kangkung goreng Belacan",
     cuisine: "Vegetable",
     dish: "Main",
     category: "Vegetable",
