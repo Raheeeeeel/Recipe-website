@@ -11,7 +11,7 @@ const recipes = [
     cookTime: "",
     totalTime: "",
     servings: "1",
-    ingredients: ["1 small onion", "3 garlic cloves", "mince chicken","mushrooms", "Pasta", "sauce"],
+    ingredients: ["1/3 small onion", "2 garlic cloves", "mince chicken","mushrooms", "Pasta", "sauce"],
     steps: [
       "difrose chicken",
       "peel onion and garlic",
@@ -31,13 +31,12 @@ const recipes = [
       "Add blackpepper",
       "Enjoy your meal!"
     ],
-    tips: ""
   },
 
   {
     id: 2,
-    name: "gugfug",
-    cuisine: "main",
+    name: "",
+    cuisine: "",
     dish: "",
     difficulty: "",
     description: "",
@@ -50,7 +49,6 @@ const recipes = [
     steps: [
       
     ],
-    tips: ""
   },
 ];
 
