@@ -38,6 +38,7 @@ const recipes = [
     name: "kangkung goreng",
     cuisine: "vegetable",
     dish: "Main",
+    category: "Vegetarian",
     difficulty: "easy",
     description: "",
     image: "",
@@ -46,9 +47,7 @@ const recipes = [
     totalTime: "",
     servings: "",
     ingredients: [""],
-    steps: [
-      
-    ],
+    steps: [],
   },
 ];
 
@@ -100,6 +99,9 @@ function filterRecipes() {
     if (['easy', 'medium', 'hard'].includes(activeFilter)) {
       // Filter by difficulty
       list = list.filter(r => r.difficulty === activeFilter);
+    } else if (activeFilter === 'Vegetarian') {
+      // Filter by vegetarian category
+      list = list.filter(r => r.category === 'Vegetarian');
     } else if (['Main', 'Dessert', 'Drink'].includes(activeFilter)) {
       // Filter by dish type
       list = list.filter(r => r.dish === activeFilter.toLowerCase());
@@ -147,7 +149,7 @@ function openModal(r) {
     `<li class="step-item"><span class="step-num">${i + 1}</span><span>${s}</span></li>`
   ).join('');
 
-  document.getElementById('mTips').innerHTML = r.tips;
+  document.getElementById('mTips').innerHTML = r.tips || '';
   document.getElementById('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
