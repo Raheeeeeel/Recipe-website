@@ -38,7 +38,7 @@ const recipes = [
     name: "kangkung goreng",
     cuisine: "vegetable",
     dish: "Main",
-    category: "Vegetarian",
+    category: "Vegetable",
     difficulty: "easy",
     description: "",
     image: "",
